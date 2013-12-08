@@ -12,15 +12,13 @@ irb #the Interactive Ruby Shell
 puts vs print
 ==============
 ```ruby
-print "This print the standard input without ", "new line"
-#This print the standard input without new line=> nil
-
-print " This print the standard input with\n New line"
-# This print the standard input with
+print "print the stdin without ","new line"  #print the stdin without new line=> nil
+print " print the stdin with\n New line"
+# print the stdin with
 # New line=> nil
 
-puts "This print the standard input with ", "new line"
-#This print the standard input with
+puts "This print the stadin with ","new line"
+#This print the stdin with
 #new line
 #=> nil
 ```
@@ -38,9 +36,11 @@ name = gets.chomp # sebastian # => "sebastian"
 Types and convertion
 =====================
 ```ruby
-a = "42"
+a,b = 42,2
 Integer(a)
+Float(b)         # 2.0
 Integer(12.5712) # 12
+Float(b)         # 2.0
 Integer(0xff)    # to hexa
 Integer(010)     # to octal
 Integer(0b1110)  # to binary
@@ -49,7 +49,7 @@ Integer(0b1110)  # to binary
 num = gets.chomp
 num.to_i() + 4  # to integer
 num.to_f()      # to float
-
+num.to_s()      # to string
 ```
 
 Strings
@@ -64,6 +64,9 @@ ok its enough
 foo
 print(quote)
 ```
+
+
+
 
 
 
