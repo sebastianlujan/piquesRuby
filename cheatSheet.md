@@ -30,13 +30,8 @@ Getting data from standard input
 
 ```ruby
 
-name = gets 
-# sebastian
-# => "sebastian\n"
-
-name = gets.chomp
-# sebastian
-# => "sebastian"
+name = gets # sebastian # => "sebastian\n"
+name = gets.chomp # sebastian # => "sebastian"
 
 ```
 
@@ -52,14 +47,23 @@ Integer(0b1110)  # to binary
 ```
 ```ruby
 num = gets.chomp
-Integer(num) + 42 
-num.to_i() + 42
-Float(num) + 2.7172 
-num.to_f() + 2.7172
+num.to_i() + 4  # to integer
+num.to_f()      # to float
 
 ```
 
-
+Strings
+========
+```ruby
+a = "foobar" # "foobar"
+quote = <<foo
+a large quote of text
+more text
+a little bit more
+ok its enough
+foo
+print(quote)
+```
 
 
 
