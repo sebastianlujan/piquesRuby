@@ -4,7 +4,7 @@ Piques from ruby
 `ruby for sysAdmins`,`beginning ruby` ,`why_guide` , `Learn ruby the hardWay`, and more.. 
 
 ```ruby
-#Piques form: Practical Ruby for System Administrators'
+#Piques from: Practical Ruby for System Administrators'
 # the insane hacker way. 
 
 #inline ruby (insane)
