@@ -27,10 +27,23 @@ Getting data from standard input
 =================================
 
 ```ruby
-
 name = gets # sebastian # => "sebastian\n"
 name = gets.chomp # sebastian # => "sebastian"
+```
 
+Variables
+=========
+```ruby
+a = 50
+b = 4.0
+c = a < b #false
+```
+
+Printing variables
+===================
+```ruby
+puts "there are #{a} bucks in my pocket"
+#there are 50 bucks in my pocket
 ```
 
 Types and convertion
